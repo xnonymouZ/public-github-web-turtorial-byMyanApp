@@ -1,0 +1,21 @@
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+<title>FORBIDDEN</title>
+<style> * { font-family: monospace } </style>
+</head>
+<body>
+
+<script>
+  document.write('{ "status": 403, "response": "Forbidden", "description": "Method not allowed"');
+
+  if (localStorage.uLang_set == 'mm' || sessionStorage.uLang_temp == 'mm') {
+	document.write(', "localized": "တားျမစ္ထားေသာေတာင္းဆိုမွု" ');
+  }
+
+  document.write(' }');
+
+</script>
+</body>
+</html>
