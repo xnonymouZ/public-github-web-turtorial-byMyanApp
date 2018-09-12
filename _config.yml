@@ -1,0 +1,23 @@
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# # Site settings
+# {{ site.title }}, {{ site.email }}, and so on.
+# create variable via {{ site.myvariable }}.
+title: MYAN[APP]
+description: >- # to ignore newlines until "baseurl:"
+  Developed by SKM Etheloper, Ethereal.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://www.myan.app" # the base hostname & protocol
+
+# # Build settings
+# markdown: kramdown
+# theme: minima
+plugins:
+  - jekyll-feed
+source: build
+destination: docs
+
+# exclude:
+#  - Gemfile
+#  - Gemfile.lock
