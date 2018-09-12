@@ -1,7 +1,10 @@
 .DS_Store
-build/
+
 .sass-cache/
 .jekyll-metadata
+log-camel-lsp.out
+
+build/
+_config.yml
 Gemfile
 Gemfile.lock
-log-camel-lsp.out
