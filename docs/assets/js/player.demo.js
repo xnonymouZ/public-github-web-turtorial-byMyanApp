@@ -32,6 +32,15 @@ function video_clicked() {
         vdo.play();
     }
 
+    var int = setInterval(function() {
+        if (vdo.currentTime == vdo.duration) {
+            vdo.src = src;
+            vdo.title = title;
+            vdo.play();
+            clearInterval(int);
+        }    
+    })
+
     function $(x) {
         return document.querySelector(x);
     }
